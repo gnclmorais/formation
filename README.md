@@ -10,24 +10,18 @@ It can be run multiple times on the same machine safely. It installs, upgrades, 
 
 ## Install
 
-Download the script:
+Download the script and review it (please don't run scripts you don't understand):
 
 ```sh
-git clone git@github.com/gnclmorais/formation.git && cd formation
-```
-
-Review the script (please don't run scripts you don't understand):
-
-```sh
-less slay
+git clone git@github.com/gnclmorais/formation.git && cd formation && less slay
 ```
 
 Slay:
 
 ```sh
-cd formation
-./slay 2>&1 | tee ~/slay.log
+git clone git@github.com/gnclmorais/formation.git && cd formation && ./slay 2>&1 | tee ~/slay.log
 ```
+
 Just follow the prompts and you’ll be fine. 👌
 
 ⚠️ Warning: I advise against running [this script](slay) unless you understand what it’s doing to your computer.

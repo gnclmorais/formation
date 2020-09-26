@@ -210,10 +210,10 @@ else
 fi
 
 ###############################################################################
-# Activate fish shell
+# Activate 🐟
 ###############################################################################
 chapter "Setting fish as the default shell…"
-if [ command -v fish &> /dev/null ]; then
+if [ -e /usr/local/bin/fish ]; then
 	# https://github.com/fish-shell/fish-shell#switching-to-fish
 	chsh -s /usr/local/bin/fish
 fi
