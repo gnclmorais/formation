@@ -49,7 +49,7 @@ The setup process will install:
 <summary>Basic tools:</summary>
 
 * [XCode Command Line Tools](https://developer.apple.com/xcode/downloads/) for developer essentials.
-* [Bash-it](https://github.com/Bash-it/bash-it/), for a more powerful bash.
+* [fish](https://github.com/fish-shell/fish-shell), the friendly interactive shell.
 * [Git](https://git-scm.com/) for version control
 * [Homebrew](http://brew.sh/) for managing operating system libraries.
 </details>

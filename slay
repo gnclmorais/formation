@@ -88,18 +88,6 @@ if [ ! -d "$HOME/.bin/" ]; then
 fi
 
 # -----------------------------------------------------------------------------
-# Bash-it
-# -----------------------------------------------------------------------------
-if [ -d "$HOME/.bash_it" ]; then
-	print_success_muted "Bash-it already installed. Skipping."
-else
-	step "Installing Bash-it…"
-	git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
-	~/.bash_it/install.sh --silent --no-modify-config
-	print_success "Bash-it installed!"
-fi
-
-# -----------------------------------------------------------------------------
 # NVM
 # -----------------------------------------------------------------------------
 if [ -x nvm ]; then
@@ -207,7 +195,6 @@ if [ -e $cwd/swag/npm ]; then
 	done
 fi
 
-
 ###############################################################################
 # OPTIONAL: Customizations
 ###############################################################################
@@ -220,6 +207,15 @@ if [ -f "$HOME/.hot-sauce" ]; then
 	fi
 else
 	print_warning "No ~/.hot-sauce found. Skipping."
+fi
+
+###############################################################################
+# Activate fish shell
+###############################################################################
+chapter "Setting fish as the default shell…"
+if [ command -v fish &> /dev/null ]; then
+	# https://github.com/fish-shell/fish-shell#switching-to-fish
+	chsh -s /usr/local/bin/fish
 fi
 
 ###############################################################################
