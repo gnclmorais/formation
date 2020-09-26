@@ -1,9 +1,7 @@
 asciinema
 git
-tig
 mas
-wget
-hub
-hugo
-yarn
+postgresql
 rbenv
+wget
+yarn

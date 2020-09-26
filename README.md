@@ -65,15 +65,9 @@ The setup process will install:
 <details>
 <summary>CLI Tools & Utilities:</summary>
 
-* [asciinema](https://asciinema.org/) for recording terminal sessions
-* [Gulp](https://gulpjs.com/) the streaming build system
-* [Hotel](https://github.com/typicode/hotel), a simple process manager for developers
-* [Hub](http://hub.github.com/) for interacting with the GitHub API
-* [hugo](https://gohugo.io/), an open-source static site generator
-* [ImageMagick](http://www.imagemagick.org/) to create, edit, compose, or convert bitmap images
-* [mas](https://github.com/mas-cli/mas) Mac App Store command line interface
-* [Tig](https://github.com/jonas/tig) text-mode interface for git
-* [Vagrant](https://www.vagrantup.com/) for development environments
+* [asciinema](https://asciinema.org/) for recording terminal sessions.
+* [ImageMagick](http://www.imagemagick.org/) to create, edit, compose, or convert bitmap images.
+* [mas](https://github.com/mas-cli/mas) Mac App Store command line interface.
 </details>
 
 ### Apps
@@ -81,73 +75,76 @@ The setup process will install:
 <details>
 <summary>Productivity</summary>
 
-* [Airmail](http://airmailapp.com/) for a better mail client.
-* [Alfred](https://www.alfredapp.com/) for increased productivity and efficiency with macOS.
-* [Fantastical](https://flexibits.com/fantastical) for a better calendar.
-* [Things](https://culturedcode.com/things/) for getting things done.
+* [Evernote](https://www.evernote.com/) to write down all kinds of notes.
+* [Flycut](https://github.com/TermiT/Flycut), a clipboard manager.
+* [Notion](https://www.notion.so/) to brainstorm and daydream.
+* [Trello](http://trello.com/) to keep track of tasks.
 </details>
 
 <details>
 <summary>Development</summary>
 
-* [Dash](https://kapeli.com/dash) offline access to API documentation sets
-* [ForkLift](https://www.binarynights.com/forklift/) FTP client
-* [Hyper](https://hyper.is/) for an alternative terminal.
-* [ImageOptim](https://imageoptim.com/mac) for image optimization.
+* [Dash](https://kapeli.com/dash) offline access to API documentation sets.
+* [Insomnia](https://insomnia.rest/) to document and test APIs.
 * [iTerm](https://www.iterm2.com/) for a better terminal.
-* [Kaleidoscope](https://www.kaleidoscopeapp.com/) for a better diff tool.
-* [Virtual Box](https://www.virtualbox.org/) powerful virtualization tool
-* [Visual Studio Code](https://code.visualstudio.com/) IDE
+* [PostgreSQL](https://wiki.postgresql.org/wiki/Homebrew) for powerful databases.
+* [Postico](https://eggerapps.at/postico/), a modern PostgreSQL client.
+* [Sublime Text](https://www.sublimetext.com/) for development.
+* [Visual Studio Code](https://code.visualstudio.com/) for more development.
+* [Virtual Box](https://www.virtualbox.org/) powerful virtualization tool.
 </details>
 
 <details>
 <summary>Design</summary>
 
-* [Affinity Designer](https://affinity.serif.com/en-us/designer/)
-* [Affinity Photo](https://affinity.serif.com/en-us/photo/)
-* [Sip](http://sipapp.io/) collect, organize & share your colors
-* [Sketch](https://www.sketchapp.com/) for design.
+* [ColorSlurp](https://colorslurp.com) for a great color picker.
+* [ImageOptim](https://imageoptim.com/mac) for image optimization.
 </details>
 
 <details>
 <summary>Communication</summary>
 
-* [Bear](http://www.bear-writer.com/) for writing and previewing markdown.
+* [Discord](https://slack.com/) for public communities.
 * [Skype](https://www.skype.com/en/) for free calls to friends and family.
-* [Slack](https://slack.com/) where work happens.
-* [Ulysses](https://ulyssesapp.com/) for long-form writing.
+* [Slack](https://slack.com/) where “work” happens.
+* [Tweeten](https://tweetenapp.com/), a powerful Twitter client.
+* [Zoom](https://zoom.us/) for video calls.
 </details>
 
 <details>
 <summary>Utilities</summary>
 
-* [1Password](https://1password.com/) for password management.
-* [Dropbox](https://www.dropbox.com) for cloud file storage.
-* [Divvy](http://mizage.com/divvy/) for better window management.
-* [Encrypto](https://macpaw.com/encrypto) for securing files.
-* [ExpressVPN](https://www.expressvpn.com/) for privacy.
-* [HyperDock](https://bahoom.com/hyperdock/)
-* [Karabiner](https://pqrs.org/osx/karabiner/) for keyboard mapping.
-* [Renamer](https://renamer.com/) for easy file renaming.
+* [AppCleaner](https://freemacsoft.net/appcleaner/) for tidier uninstallations.
+* [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake) to prevent the screen from sleeping.
+* [NordVPN](https://nordvpn.com/) for privacy.
+* [Rectangle](https://rectangleapp.com/) for better window management.
+* [The Unarchiver](https://theunarchiver.com/) to unpack any archive.
+* [Transmission](https://transmissionbt.com/) for fast, easy, free torrents.
 </details>
 
 <details>
 <summary>Miscellaneous</summary>
 
-* [Gifox](https://gifox.io/) for GIF making.
+* [coconutBattery](https://coconut-flavour.com/coconutbattery/) for improved battery stats.
+* [Disc Inventory X](http://www.derlien.com/) for simple disc space management.
+* [Fliqlo](https://fliqlo.com/#/screensaver) for a sweet flip clock screensaver.
+* [GIPHY Capture](https://giphy.com/apps/giphycapture) for GIF making.
+* [Irvue](https://irvue.tumblr.com/) to get great random background.
+* [Overkill](https://github.com/KrauseFx/overkill-for-mac) to prevent iTunes from opening when media keys are pressed.
 * [Rocket](http://matthewpalmer.net/rocket/) for Slack-like emojis.
+* [Sonos](https://support.sonos.com/s/downloads) for music around the house.
 * [Spotify](https://www.spotify.com/) for music.
+* [Vanilla](https://matthewpalmer.net/vanilla/) to hide menu bar icons.
 * [VLC](http://www.videolan.org/) for a better media player.
 </details>
 
 <details>
 <summary>Browsers</summary>
 
-* [Blisk](https://blisk.io/) for cross-device web development.
 * [Brave](https://brave.com/) for web browsing without ads.
 * [Chrome](https://www.google.com/chrome/browser/desktop/) for fast and free web browsing.
-* [Firefox](https://www.mozilla.org/en-US/firefox/new/) for web browsing and testing.
-* [TorBrowser](https://www.torproject.org/projects/torbrowser.html.en) for super secret web browsing.
+* [Chrome Canary](https://www.google.com/chrome/canary/) for tomorrow’s web.
+* [Firefox Developer Edition](https://www.mozilla.org/firefox/developer/) for a better and edgy web.
 </details>
 
 <sub>See [`swag`](swag) for the full list of apps that will be installed. Adjust it to your personal taste.</sub>
@@ -170,12 +167,10 @@ NERDFONTS_RELEASE=$(curl -L -s -H 'Accept: application/json' https://github.com/
 NERDFONTS_VERSION=$(get_github_version $NERDFONTS_RELEASE)
 
 DIRECTORIES=(
-    $HOME/Desktop/code
-    $HOME/Desktop/design
-    $HOME/Desktop/*dump
-    $HOME/Desktop/GIFs
-    $HOME/Desktop/projects
-    $HOME/Desktop/screenshots
+    $HOME/Documents/__tmp
+    $HOME/Documents/_dev
+    $HOME/Documents/_downloads
+    $HOME/Documents/_screenshots
 )
 
 NERDFONTS=(
