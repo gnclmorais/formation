@@ -1,3 +1,6 @@
+> _**Please note** that this specific repo is a customised version of the [original project](https://github.com/minamarkham/formation) by [@minamarkham](https://github.com/minamarkham). All props go to her!_ 👏🏻
+
+
 # 🐝 Formation <a href="https://www.patreon.com/minamarkham"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="100"></a>
 
 ![Let's get in formation](assets/formation.gif)
@@ -10,7 +13,7 @@ It can be run multiple times on the same machine safely. It installs, upgrades, 
 Download the script:
 
 ```sh
-git clone git@github.com/minamarkham/formation.git && cd formation
+git clone git@github.com/gnclmorais/formation.git && cd formation
 ```
 
 Review the script (please don't run scripts you don't understand):
@@ -27,7 +30,7 @@ cd formation
 ```
 Just follow the prompts and you’ll be fine. 👌
 
-:warning: Warning: I advise against running [this script](slay) unless you understand what it’s doing to your computer.
+⚠️ Warning: I advise against running [this script](slay) unless you understand what it’s doing to your computer.
 
 I created this based on my own preferences; your mileage may vary.
 
