@@ -221,10 +221,7 @@ fi
 # Activate 🐟
 ###############################################################################
 chapter "Setting fish as the default shell…"
-if [ -e /usr/local/bin/fish ]; then
-	# https://github.com/fish-shell/fish-shell#switching-to-fish
-	chsh -s /usr/local/bin/fish
-fi
+set_fish_as_shell
 
 ###############################################################################
 # 🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋
