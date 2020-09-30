@@ -159,6 +159,17 @@ if [ -e $cwd/swag/casks ]; then
 fi
 
 ###############################################################################
+# INSTALL: fonts
+###############################################################################
+if [ -e $cwd/swag/fonts ]; then
+	chapter "Installing fonts via Homebrew…"
+
+	for font in $(<$cwd/swag/fonts); do
+	    install_font_via_brew $font
+	done
+fi
+
+###############################################################################
 # INSTALL: Mac App Store Apps
 ###############################################################################
 chapter "Installing apps from App Store…"

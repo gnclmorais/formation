@@ -565,6 +565,16 @@ install_application_via_brew() {
     fi
 }
 
+install_font_via_brew() {
+    if [[ ! $(brew list --cask | grep $font) ]]; then
+        echo_install "Installing $font"
+        brew cask install $font >/dev/null
+        print_in_green "${bold}✓ installed!${normal}\n"
+    else
+        print_success_muted "$font already installed. Skipped."
+    fi
+}
+
 install_application_via_app_store() {
 	if ! mas list | grep $1 &> /dev/null; then
 		echo_install "Installing $2"
