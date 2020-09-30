@@ -22,6 +22,17 @@ Slay:
 git clone git@github.com/gnclmorais/formation.git && cd formation && ./slay 2>&1 | tee ~/slay.log
 ```
 
+As an alternative, if you are setting up a new MacBook, `git` is not likely to be installed yet so you can instead:
+
+```sh
+curl -L -o formation.zip -k https://github.com/gnclmorais/formation/archive/gnclmorais.zip \
+  && unzip formation.zip \
+  && rm formation.zip \
+  && mv formation-gnclmorais formation \
+  && cd formation \
+  && bash ./slay 2>&1 | tee ~/slay.log
+```
+
 Just follow the prompts and you’ll be fine. 👌
 
 ⚠️ Warning: I advise against running [this script](slay) unless you understand what it’s doing to your computer.
